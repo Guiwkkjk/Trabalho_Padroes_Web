@@ -44,8 +44,9 @@
             height: 100 vh;
             background-color: rgb(226, 214, 214);
             background-image: url(../imagens/fifa.png);
-            background-position: top;
-            background-repeat: revert;
+            background-position: left;
+            background-repeat: round;
+            background-origin: content-box;
             background-size: 180px 100px;
 
         }
