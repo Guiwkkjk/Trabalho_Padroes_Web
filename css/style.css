@@ -1,0 +1,60 @@
+
+        th {
+            background-color: rgb(213 89 14);
+            color: blanchedalmond;
+        }
+
+        td {
+            background-color: rgb(12 6 95);
+            color: bisque;
+        }
+
+        a {
+            color: burlywood;
+            text-decoration: none;
+        }
+
+
+
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        th,
+        td {
+            padding: 5px 10px;
+        }
+
+        table,
+        th,
+        td {
+            border: 0px solid black;
+
+        }
+
+        table {
+            font-size: 50px;
+            margin: 2% auto;
+        }
+
+
+
+
+        body {
+            height: 100 vh;
+            background-color: rgb(226, 214, 214);
+            background-image: url(../imagens/fifa.png);
+            background-position: left;
+            background-repeat: round;
+            background-origin: content-box;
+            background-size: 180px 100px;
+
+        }
+        
+        .tabela-jogos{
+            text-align: center;
+            font-size: 25px;
+            margin: 1% auto;
+
+        }
+
