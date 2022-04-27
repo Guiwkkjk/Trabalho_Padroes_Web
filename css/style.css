@@ -81,3 +81,7 @@ body {
 .negrito {
     font-weight: bold;
    }
+
+   .imagem {
+       <img src="imagens grupo_D/logo3.png">
+   }
