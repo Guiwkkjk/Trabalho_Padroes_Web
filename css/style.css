@@ -12,17 +12,17 @@
     line-height: 3.5em;
 }
 
-#menu-h ul   {
-        margin-bottom: 0;
-        list-style: none;
-        padding-left: 0;
-    }
+#menu-h ul {
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+}
 
 
 
 th {
-    background-color:firebrick;
-    
+    background-color: firebrick;
+
     color: blanchedalmond;
 }
 
@@ -63,12 +63,12 @@ table {
 
 
 body {
-    height: 150vh;
     background-color: black;
     background-image: url(../imagens\ grupo_D/fundo.webp);
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 2000px;
 
 }
 
@@ -78,8 +78,12 @@ body {
     margin: 1% auto;
 
 }
+
 .negrito {
     font-weight: bold;
-   }
+}
 
-   
+.imagensLinks{
+    float: right;
+}
+
