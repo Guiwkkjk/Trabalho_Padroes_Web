@@ -1,0 +1,55 @@
+#menu-h {
+    list-style: none;
+    background-color: #282828;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    cursor: default;
+    height: 3.5em;
+    line-height: 3.5em;
+}
+
+#menu-h ul   {
+        margin-bottom: 0;
+        list-style: none;
+        padding-left: 0;
+    }
+
+body{
+    background-image: url(fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+h1{
+    font-weight: bold;
+    font-size: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+text-align: center;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+text-align: center;
+}
+
+p{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+li{
+    text-align: center;
+    color:white
+
+}
