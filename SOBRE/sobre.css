@@ -19,7 +19,7 @@
     }
 
 body{
-    background-image: url(fundo.webp);
+    background-image: url(../IMAGENS_PRINCIPAIS/fundo.webp);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -28,15 +28,16 @@ body{
 
 h1{
     font-weight: bold;
-    font-size: 55px;
+    font-size: 45px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 text-align: center;
+;
 }
 
 h2{
     font-weight: bold;
-    font-size: 45px;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 text-align: center;
@@ -46,6 +47,7 @@ p{
     text-align: center;
     margin: 0 auto;
     color: white;
+    width: 600px;
 }
 
 li{
@@ -53,3 +55,4 @@ li{
     color:white
 
 }
+
