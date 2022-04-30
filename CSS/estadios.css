@@ -1,0 +1,128 @@
+.container {
+    margin: 0 auto;
+    max-width: calc(100% - 50px);
+    width: 1200px;
+}
+
+    .container.medium {
+        width: 900px;
+    }
+
+    @media screen and (max-width: 1680px) {
+
+        .container {
+            width: 1200px;
+        }
+
+            .container.medium {
+                width: 900px;
+            }
+
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        .container {
+            width: 960px;
+        }
+
+            .container.medium {
+                width: 720px;
+            }
+
+    }
+
+    @media screen and (max-width: 980px) {
+
+        .container {
+            width: 100%;
+        }
+
+            .container.medium {
+                width: 75%;
+            }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+        .container {
+            width: 100%;
+            max-width: calc(100% - 30px);
+        }
+
+            .container.medium {
+                width: 100%;
+            }
+
+    } 
+
+#menu-h {
+    list-style: none;
+    background-color: #282828;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    cursor: default;
+    height: 3.5em;
+    line-height: 3.5em;
+}
+
+#menu-h ul   {
+        margin-bottom: 0;
+        list-style: none;
+        padding-left: 0;
+    }
+
+body{
+    background-image: url(../IMAGENS_PRINCIPAIS/fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+h1{
+    font-weight: bold;
+    font-size: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+text-align: center;
+}
+
+table{
+border-collapse:collapse;
+background-color: darkred;
+text-align: center;  
+margin: 0 auto;
+border-color: red;
+width: 500px;
+}
+
+p{
+text-align: left;
+margin: 0 auto;
+max-width: 500px;
+}
+
+th{
+
+font-size: 40px;
+}
+
+#coluna1 {
+float: left;
+margin: 70px;
+padding: 5px;
+
+}
+
+#coluna2 {
+float: right;
+margin: 70px;
+padding: 5px;
+
+}
